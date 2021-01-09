@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+/* {outline: 1px solid red;}
+/*ELEMENTOS HTML*/
+body{
+    font-family: 'Handlee', Bold;
+    background-color: black;
+}
+button{
+    font-family: 'Handlee', bold;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 0%;
+    border: 0px;
+    background-color: lightgrey;
+    border-bottom: 1px solid gray;
+}
+input{
+    padding: 5px;
+    font-family: 'Handlee', Bold;
+    font-weight: bold;
+    display: block;
+    width: 45%;
+    float: right;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+}
+
+i { 
+    position: absolute;
+    left: 530px;
+    color: green;
+} 
+
+p{
+    padding-right: 40px;
+}
+
+section{
+    margin: 100px auto;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+}
+
+header{
+    overflow: hidden;
+    font-size: 20px;
+}
+h1{
+    padding: 10px 5px 5px 5px;
+    margin: 20px 5px 5px 5px;
+}
+article{
+    padding: 5px;
+    margin-left: 5px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+/*CLASES*/
+
+.paragraph{
+    font-size: 20px;
+    font-weight: bold;
+}
+.formField{
+    padding-right: 20px;
+    position: relative;
+}
+
+.icon{
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+}
+.ancho{
+    width: 50%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+  
+.icon { 
+    padding: 10px; 
+    min-width: 10px;
+} 
+  
+/*ID*/
+#icon-email{
+    top: 40px;
+}
