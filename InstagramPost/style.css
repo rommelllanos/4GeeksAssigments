@@ -1,0 +1,27 @@
+* {outline: 1px solid red;}
+body { /*especificidad 0001  1  (TAGS)*/
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: green;
+    background-color: rgb(59, 59, 59);
+}
+
+.post{
+    width: 450px;
+    margin: ;
+}
+
+#footer{ /*especificidad 0100  4  (IDS)*/
+    color: palegreen;
+
+}
+
+/*
+*  px: 16px = 1cm
+*  em (emphasize): unidad minima de resolucion definida por defecto con base al tamano de la fuente 1em = 16px
+*  rem (responsive emphasize): mismo que em pero responsivo 
+*  pt (points): puntos mas pequenos que los pixeles
+*  ch (
+*  %: porcentaje del espacio
+*  vw (viewport width): multiplos del ancho de resolucion
+*  vh (viewport heigh): multiplos del alto de resolucion
+*/

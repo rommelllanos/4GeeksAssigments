@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body{
+    background-color: #dddddd;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size:xx-large;
+    color: #535353;
+}
+p{
+    margin: 0px auto;
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+
+.excusa{
+    margin: 10% auto;
+    text-align: center;
+}
+
+button{
+    background: radial-gradient(circle at 0% 0%, #f3f3f3 0%,#dddddd 90%) !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 27px;
+    height: 200px;
+    width: 200px;
+    color: rgb(185, 185, 185);
+    border: 2px solid #ebebeb;
+    border-radius: 150px;
+    box-shadow: 2px 2px 5px 0px #cecece, -2px -2px 5px 0px #ffffff;
+    transition: all .25s ease 0s;
+    margin: auto;
+    text-align: center;
+}
+
+button:hover{
+    background: radial-gradient(circle at 50% 50%, #f3f3f3 0%,#dddddd 90%);
+    height: 210px;
+    width: 210px;
+    transition: all .25s ease 0s;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:active{
+    background: radial-gradient(circle at 10% 10%, #f3f3f3 0%,#dddddd 90%) !important;
+    font-size: 25px;
+    color: rgb(201, 201, 201);
+    height: 190px;
+    width: 190px;
+    transition: all .25s ease 0s;
+    box-shadow: -2px -2px 5px 0px #cecece, 2px 2px 5px 0px #ffffff;
+}
