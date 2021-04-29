@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang = "en">
+<html> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href = "style.css">
+        <link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel = "stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+        <link href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel = "stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        <div class="container justify-content-center">
+            <div class="card justify-content-center">
+                <div class="card-header justify-content-center">
+                    <h2 class="card-title">
+                        Payment form example
+                    </h2>
+                </div>
+                <div class="alert alert-danger">
+                    <div class="row">
+                        <span class="alert-text">
+                            Some fields are missing!
+                        </span>
+                            
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row inputrow">
+                        <div class="col-5">
+                            <label>Card #</label>
+                            <input type="number" class="form-control" placeholder="XXXXXXXXXXXXXXXXXXXXX" required>
+                        </div>
+                        <div class="col-3">
+                            <label>CVC #</label>
+                            <input type="number" class="form-control" placeholder="0000" required>
+                        </div>
+                        <div class ="icons">
+                            <i class="fas fa-dollar-sign dollar"></i>
+                        </div>
+                        <div class="col">
+                            <label>Amount</label>
+                            <input type="number" class="form-control" placeholder="Amount" required>
+                        </div>
+                    </div>
+                    <div class="row inputrow">
+                        <div class="col">
+                            <label>First Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="col">
+                            <label>Last Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="row inputrow">
+                        <div class="col-6">
+                            <label>City</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="col">
+                            <form>
+                                <label>State</label>
+                                <select class="custom-select" id="inlineFormCustomSelectPref">
+                                <option selected>Pick a State</option>
+                                <option value="1">Miranda</option>
+                                <option value="2">Aragua</option>
+                                <option value="3">Anzoategui</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="col">
+                            <label>Postal Code</label>
+                            <input type="number" class="form-control" required>
+                        </div>                       
+                    </div>
+                    <div class="row inputrow">
+                        <div class="col-6">
+                            <label>We accept</label>
+                            <div class="payments border">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <i class="fab fa-cc-mastercard cards"></i>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <i class="fab fa-cc-visa cards"></i>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                    <i class="fab fa-cc-diners-club cards"></i>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option4">
+                                    <i class="fab fa-cc-amex cards"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label>Message</label>
+                            <textarea class="form-control col-12" rows="3"></textarea>
+                            <small id="emailHelp" class="form-text text-muted">Add any notes here.</small>
+                        </div>                       
+                    </div>
+                </div>
+                <div class="card-footer text-right">
+                    <button type="button" class="btn btn-secondary">Cancel</button>
+                    <button type="button" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+            
+            
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
