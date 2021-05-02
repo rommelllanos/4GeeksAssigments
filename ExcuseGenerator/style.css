@@ -7,17 +7,19 @@ body{
     font-size:xx-large;
     color: #535353;
 }
-p{
+marquee{
     margin: 0px auto;
-    text-align: center;
+    
+    
 }
 div{
     text-align: center;
 }
 
 .excusa{
-    margin: 10% auto;
+    margin: 10% auto 20px auto;
     text-align: center;
+
 }
 
 button{
